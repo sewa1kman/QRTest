@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<title>Hello, world!</title>
+	<title>AR browser</title>
 	<!-- include three.js library -->
 	<script src='js/three.js'></script>
 	<script src='js/OBJLoader.js'></script>
@@ -136,7 +136,7 @@ function initialize()
 					mesh0 = group.children[0];
 					mesh0.material.side = THREE.DoubleSide;
 					mesh0.position.y = 0.25;
-					mesh0.scale.set(0.05,0.05,0.05);
+					mesh0.scale.set(0.005,0.005,0.005);
 					markerRoot1.add(mesh0);
 				}, onProgress, onError );
 		});
